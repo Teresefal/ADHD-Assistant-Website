@@ -226,7 +226,7 @@
 
 .desktop .header {
   display: flex;
-  width: 1440px;
+  width: 100%;
   height: 80px;
   align-items: center;
   justify-content: space-between;
