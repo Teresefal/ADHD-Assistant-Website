@@ -11,7 +11,7 @@
   background-image: url(./img/desktop-8.png);
   background-size: cover;
   background-position: 50% 50%;
-  width: 100%;
+  width: 1440px;
   height: 980px;
   position: relative;
 }
@@ -23,8 +23,7 @@
   gap: 16px;
   position: absolute;
   top: 112px;
-  margin-left: auto;
-  margin-right: auto;
+  left: 110px;
 }
 
 .desktop .frame-2 {
@@ -450,7 +449,7 @@
 
 .desktop .header {
   display: flex;
-  width: 100%;
+  width: 1440px;
   height: 80px;
   align-items: center;
   justify-content: space-between;

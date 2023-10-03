@@ -8,7 +8,7 @@
 
 .desktop .div {
   background-color: #ffffff;
-  width: 100%;
+  width: 1440px;
   height: 2673px;
   position: relative;
 }
@@ -23,8 +23,7 @@
   padding: 196px 0px 0px;
   position: absolute;
   top: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  left: 110px;
 }
 
 .desktop .intro {
@@ -388,11 +387,8 @@
   left: 0;
   background-color: var(--backgroundbackground);
   border-radius: 0px 0px 4px 4px;
-  border-top-style: none;
-  border-right-style: none;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-left-style: none;
   border-color: var(--surfaceprimary);
 }
 
