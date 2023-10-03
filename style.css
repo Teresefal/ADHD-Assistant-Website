@@ -23,7 +23,8 @@
   padding: 196px 0px 0px;
   position: absolute;
   top: 80px;
-  left: 110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .desktop .intro {
