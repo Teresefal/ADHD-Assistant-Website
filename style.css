@@ -377,7 +377,7 @@
 
 .desktop .header-2 {
   display: flex;
-  width: 1440px;
+  width: 100%;
   height: 80px;
   align-items: center;
   justify-content: space-between;
@@ -387,8 +387,11 @@
   left: 0;
   background-color: var(--backgroundbackground);
   border-radius: 0px 0px 4px 4px;
+  border-top-style: none;
+  border-right-style: none;
   border-bottom-width: 1px;
   border-bottom-style: solid;
+  border-left-style: none;
   border-color: var(--surfaceprimary);
 }
 
