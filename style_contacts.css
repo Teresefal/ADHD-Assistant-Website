@@ -85,6 +85,7 @@
 }
 
 .desktop .input-large {
+  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -274,6 +275,7 @@
 }
 
 .desktop .button-compact {
+  cursor: pointer;
   position: relative;
   flex: 0 0 auto;
 }
@@ -323,6 +325,7 @@
 }
 
 .desktop .button-medium {
+  cursor: pointer;
   align-items: center;
   justify-content: center;
   gap: 8px;
