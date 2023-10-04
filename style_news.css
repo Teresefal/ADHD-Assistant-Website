@@ -35,6 +35,7 @@
 }
 
 .desktop .big-news {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   width: 808px;
@@ -97,6 +98,7 @@
 }
 
 .desktop .medium-news {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -168,6 +170,7 @@
 }
 
 .desktop .frame-4 {
+  cursor: pointer;
   display: flex;
   height: 128px;
   align-items: flex-start;
@@ -353,6 +356,7 @@
 }
 
 .desktop .button-compact {
+  cursor: pointer;
   position: relative;
   flex: 0 0 auto;
 }
@@ -402,6 +406,7 @@
 }
 
 .desktop .button-medium {
+  cursor: pointer;
   align-items: center;
   justify-content: center;
   gap: 8px;
