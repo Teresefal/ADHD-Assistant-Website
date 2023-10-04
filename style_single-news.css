@@ -104,6 +104,7 @@
 }
 
 .desktop .button-compact {
+  cursor: pointer;
   position: relative;
   flex: 0 0 auto;
 }
@@ -124,6 +125,7 @@
 }
 
 .desktop .button-large {
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -278,6 +280,7 @@
 }
 
 .desktop .button-medium {
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
