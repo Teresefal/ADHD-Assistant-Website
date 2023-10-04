@@ -129,6 +129,7 @@
 }
 
 .desktop .div-2 {
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 4px;
