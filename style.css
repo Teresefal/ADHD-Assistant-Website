@@ -366,15 +366,6 @@
   flex: 0 0 auto;
 }
 
-.desktop .img-wrapper {
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 6px;
-  display: inline-flex;
-  position: relative;
-  flex: 0 0 auto;
-}
-
 .desktop .img-2 {
   position: relative;
   width: 28px;
