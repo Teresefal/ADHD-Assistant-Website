@@ -569,7 +569,7 @@
   font-style: var(--heading-secondary-semibold-20-pt-font-style);
 }
 
-.desktop .text-wrapper-8 {
+.desktop .logo-text {
   position: relative;
   width: fit-content;
   font-family: var(--heading-primary-semibold-24-pt-font-family);
