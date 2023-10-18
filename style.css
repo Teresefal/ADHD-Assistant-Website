@@ -419,7 +419,7 @@
   flex: 0 0 auto;
 }
 
-.desktop .content-3 {
+.desktop .header-menu {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -577,19 +577,12 @@
   font-style: var(--heading-primary-semibold-24-pt-font-style);
 }
 
-.desktop .text-wrapper-9 {
-  position: relative;
+.desktop .halftone {
   width: 256px;
-  font-family: var(--caption-primary-medium-12-pt-font-family);
-  font-weight: var(--caption-primary-medium-12-pt-font-weight);
   color: var(--onsurfacetretiary);
-  font-size: var(--caption-primary-medium-12-pt-font-size);
-  letter-spacing: var(--caption-primary-medium-12-pt-letter-spacing);
-  line-height: var(--caption-primary-medium-12-pt-line-height);
-  font-style: var(--caption-primary-medium-12-pt-font-style);
 }
 
-.desktop .text-wrapper-10 {
+.desktop .caption-12 {
   position: relative;
   width: fit-content;
   font-family: var(--caption-primary-medium-12-pt-font-family);
