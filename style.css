@@ -450,30 +450,31 @@
 
 .desktop .hpsb-24-osp {
   position: relative;
-  align-self: stretch;
-  margin-top: -1px;
   font-family: var(--heading-primary-semibold-24-pt-font-family);
   font-weight: var(--heading-primary-semibold-24-pt-font-weight);
   color: var(--onsurfaceprimary);
   font-size: var(--heading-primary-semibold-24-pt-font-size);
-  text-align: center;
   letter-spacing: var(--heading-primary-semibold-24-pt-letter-spacing);
   line-height: var(--heading-primary-semibold-24-pt-line-height);
   font-style: var(--heading-primary-semibold-24-pt-font-style);
 }
 
-.desktop .hpsb-24-osp {
-  position: relative;
+.desktop .slogan {
+  align-self: stretch;
+  margin-top: -1px;
+  text-align: center;
+}
+
+.desktop .topic {
   width: fit-content;
   margin-top: -1px;
-  font-family: var(--heading-primary-semibold-24-pt-font-family);
-  font-weight: var(--heading-primary-semibold-24-pt-font-weight);
-  color: var(--onsurfaceprimary);
-  font-size: var(--heading-primary-semibold-24-pt-font-size);
-  letter-spacing: var(--heading-primary-semibold-24-pt-letter-spacing);
-  line-height: var(--heading-primary-semibold-24-pt-line-height);
   white-space: nowrap;
-  font-style: var(--heading-primary-semibold-24-pt-font-style);
+}
+
+.desktop .logo-text {
+  width: fit-content;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .desktop .bsm-14-obp {
@@ -561,20 +562,6 @@
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   font-style: var(--heading-secondary-semibold-20-pt-font-style);
-}
-
-.desktop .hpsb-24-osp {
-  position: relative;
-  width: fit-content;
-  font-family: var(--heading-primary-semibold-24-pt-font-family);
-  font-weight: var(--heading-primary-semibold-24-pt-font-weight);
-  color: var(--onsurfaceprimary);
-  font-size: var(--heading-primary-semibold-24-pt-font-size);
-  text-align: center;
-  letter-spacing: var(--heading-primary-semibold-24-pt-letter-spacing);
-  line-height: var(--heading-primary-semibold-24-pt-line-height);
-  white-space: nowrap;
-  font-style: var(--heading-primary-semibold-24-pt-font-style);
 }
 
 .desktop .cpm-12-ost {
