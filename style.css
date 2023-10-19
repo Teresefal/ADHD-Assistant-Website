@@ -355,6 +355,11 @@
 }
 
 
+.desktop .fib {
+  position: relative;
+  top: 64px;
+}
+
 .desktop .footer-nav {
   display: inline-flex;
   align-items: flex-start;
