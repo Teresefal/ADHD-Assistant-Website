@@ -348,12 +348,14 @@
   align-items: flex-start;
   justify-content: space-between;
   padding: 32px 110px;
-  position: absolute;
-  top: 2553px;
   left: 0;
   background-color: #eee5ff;
 }
 
+.desktop .glb {
+  position: absolute;
+  top: 2553px;
+}
 
 .desktop .fib {
   position: relative;
