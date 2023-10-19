@@ -956,6 +956,7 @@
 }
 
 .desktop .button-medium-2 {
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;

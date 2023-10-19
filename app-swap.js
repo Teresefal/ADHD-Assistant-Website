@@ -37,3 +37,50 @@ function startTimer2() {
         }
     }, 1000);
 }
+
+var time1 = 1200;
+var time2 = 1500;
+var time3 = 300;
+
+function startTimer() {
+  var x = setInterval(function() {
+    document.getElementById("timer").innerHTML = "Таймер: " + formatTime(time1);
+    time1--;
+    if (time1 < 0) {
+      clearInterval(x);
+      document.getElementById("timer").innerHTML = "Время вышло";
+      alert('Следай перерыв!');
+    }
+  }, 1000);
+}
+
+function startTimer2() {
+  var x = setInterval(function() {
+    document.getElementById("timer2").innerHTML = "Таймер: " + formatTime(time2);
+    time2--;
+    if (time2 < 0) {
+      clearInterval(x);
+      document.getElementById("timer2").innerHTML = "Время вышло";
+      alert('Следай перерыв!');
+    }
+  }, 1000);
+}
+
+function startTimer3() {
+  var x = setInterval(function() {
+    document.getElementById("timer3").innerHTML = "Таймер: " + formatTime(time3);
+    time3--;
+    if (time3 < 0) {
+      clearInterval(x);
+      document.getElementById("timer3").innerHTML = "Время вышло";
+      alert('Следай перерыв!');
+    }
+  }, 1000);
+}
+
+function formatTime(time) {
+  var minutes = Math.floor(time / 60);
+  var seconds = time % 60;
+  
+  return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+}
