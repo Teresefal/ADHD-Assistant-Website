@@ -19,6 +19,28 @@
   position: relative;
 }
 
+.desktop .cont-f {
+  display: flex;
+  flex-direction: column;
+  width: 1220px;
+  align-items: flex-start;
+  gap: 64px;
+  padding: 64px 0px 0px;
+  position: absolute;
+  top: 80px;
+  left: 110px;
+}
+
+.desktop .reply-cont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
 .app-bg {
   background-image: url(./img/desktop-8.png);
 }
