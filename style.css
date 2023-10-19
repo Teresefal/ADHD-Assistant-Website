@@ -424,20 +424,6 @@
   flex: 0 0 auto;
 }
 
-.desktop .main-notes {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
-  align-items: center;
-  gap: 32px 32px;
-  padding: 0px 8px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
 .desktop .calendar-day {
   display: flex;
   flex-direction: column;
