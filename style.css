@@ -44,6 +44,16 @@
   position: relative;
 }
 
+.desktop .button-compact {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 6px;
+}
+
+
+
 .desktop .bpm-16-oss {
   position: relative;
   align-self: stretch;
@@ -139,6 +149,282 @@
   gap: 16px;
   position: relative;
   flex: 0 0 auto;
+}
+
+.desktop .app-window {
+  display: flex;
+  width: 1220px;
+  align-items: flex-start;
+  gap: 16px;
+  position: absolute;
+  top: 88px;
+  left: 110px;
+}
+
+.desktop .app-apps {
+  display: flex;
+  flex-direction: column;
+  height: 856px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--surfacesecondary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.desktop .app-main {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  height: 856px;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 0px 16px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.desktop .app-schedule {
+  display: flex;
+  flex-direction: column;
+  height: 856px;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 0px 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.desktop .app-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--brandquaternary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.desktop .profile-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .profile-text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .icon-profile-circle {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.desktop .apps-list-ex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--surfacesecondary);
+  border-radius: 1px;
+  overflow: hidden;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--onsurfacequinary);
+}
+
+.desktop .htsb-16-osp {
+  width: fit-content;
+  font-weight: var(--heading-tretiary-semibold-16-pt-font-weight);
+  color: var(--onsurfaceprimary);
+  font-size: var(--heading-tretiary-semibold-16-pt-font-size);
+  line-height: var(--heading-tretiary-semibold-16-pt-line-height);
+  white-space: nowrap;
+  position: relative;
+  font-family: var(--heading-tretiary-semibold-16-pt-font-family);
+  letter-spacing: var(--heading-tretiary-semibold-16-pt-letter-spacing);
+  font-style: var(--heading-tretiary-semibold-16-pt-font-style);
+}
+
+.desktop .cpm-12-osq {
+  position: relative;
+  width: fit-content;
+  font-family: var(--caption-primary-medium-12-pt-font-family);
+  font-weight: var(--caption-primary-medium-12-pt-font-weight);
+  color: var(--onsurfacequaternary);
+  font-size: var(--caption-primary-medium-12-pt-font-size);
+  letter-spacing: var(--caption-primary-medium-12-pt-letter-spacing);
+  line-height: var(--caption-primary-medium-12-pt-line-height);
+  white-space: nowrap;
+  font-style: var(--caption-primary-medium-12-pt-font-style);
+}
+
+.desktop .app-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--onsurfacequinary);
+}
+
+.desktop .main-title {
+  gap: 10px;
+  border-color: var(--onsurfacequinary);
+  display: flex;
+  align-items: center;
+  padding: 12px 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.desktop .main-calendar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px 8px;
+  padding: 0px 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .calendar-day {
+  display: flex;
+  flex-direction: column;
+  width: 174.5px;
+  height: 100px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 8px;
+  position: relative;
+  background-color: var(--brandquaternary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.desktop .calendar-day-date {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .day-priority {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: -1px;
+}
+
+.desktop .priority-gray {
+  background-color: var(--surfacequaternary);
+  position: relative;
+  width: 34.5px;
+  height: 4px;
+  border-radius: 4px;
+}
+
+.desktop .priority-yellow {
+  background-color: var(--functionalwarningprimary);
+  position: relative;
+  width: 34.5px;
+  height: 4px;
+  border-radius: 4px;
+}
+
+.desktop .priority-green {
+  background-color: var(--functionalsuccessprimary);
+  position: relative;
+  width: 34.5px;
+  height: 4px;
+  border-radius: 4px;
+}
+
+.desktop .schedule-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.desktop .schedule-task {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--surfacesecondary);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--onsurfacequinary);
+}
+
+.desktop .task-content {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.desktop .task-priority {
+  position: relative;
+  align-self: stretch;
+  width: 40px;
+  margin-left: -36px;
+  background-color: var(--functionalerrorprimary);
+  transform: rotate(-90deg);
 }
 
 .desktop .big-news {
