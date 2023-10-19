@@ -817,6 +817,55 @@
   flex: 0 0 auto;
 }
 
+.desktop .big-logo {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .big-logo-text {
+  position: relative;
+  width: fit-content;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-weight: 600;
+  color: var(--onsurfaceprimary);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.desktop .contacts-info {
+  display: flex;
+  flex-direction: column;
+  width: 660px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .cont-inf-box {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .reply {
+  display: flex;
+  flex-direction: column;
+  width: 660px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
 .desktop .bpm-16-osp {
   position: relative;
   width: fit-content;
