@@ -92,7 +92,7 @@
   object-fit: cover;
 }
 
-.desktop .news {
+.desktop .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,35 +228,13 @@
   font-style: var(--heading-secondary-medium-20-pt-font-style);
 }
 
-.desktop .frame {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.desktop .div-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
 .desktop .achievements {
   position: relative;
   width: 599px;
   height: 276px;
 }
 
-.desktop .img {
+.desktop .stat-1 {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -264,7 +242,7 @@
   left: 0;
 }
 
-.desktop .frame-2 {
+.desktop .stat-2 {
   position: absolute;
   width: 160px;
   height: 160px;
@@ -272,7 +250,7 @@
   left: 439px;
 }
 
-.desktop .frame-3 {
+.desktop .stat-3 {
   position: absolute;
   width: 216px;
   height: 216px;
