@@ -15,7 +15,7 @@
 .desktop .div-cont {
   background-color: #ffffff;
   width: 1440px;
-  height: 980px;
+  height: 920px;
   position: relative;
 }
 
@@ -720,7 +720,7 @@
 
 .desktop .ctcs {
   position: absolute;
-  top: 780px;
+  top: 835px;
 }
 
 .desktop .fib {
