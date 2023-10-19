@@ -12,6 +12,13 @@
   position: relative;
 }
 
+.desktop .div-cont {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 980px;
+  position: relative;
+}
+
 .app-bg {
   background-image: url(./img/desktop-8.png);
 }
