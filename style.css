@@ -802,6 +802,16 @@
   font-style: var(--body-primary-medium-16-pt-font-style);
 }
 
+.desktop .alt-bpm {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+
 .desktop .htsm-16-osp {
   position: relative;
   width: fit-content;
