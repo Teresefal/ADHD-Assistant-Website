@@ -144,6 +144,10 @@
   flex: 0 0 auto;
 }
 
+.desktop .button-large:hover {
+  background-color: var(--brandsecondary);
+}
+
 .desktop .hsm-20-obp {
   position: relative;
   width: fit-content;
@@ -668,6 +672,10 @@
   border-radius: 8px;
 }
 
+.desktop .button-large-2:hover {
+  background-color: var(--onsurfacetretiary);
+}
+
 .desktop .hsm-20-osp {
   position: relative;
   width: fit-content;
@@ -882,6 +890,10 @@
   display: inline-flex;
   position: relative;
   flex: 0 0 auto;
+}
+
+.desktop .button-medium:hover {
+  background-color: var(--onsurfacequinary);
 }
 
 .desktop .big-logo {
