@@ -9,31 +9,31 @@ function showContent(id) {
   var interval;
 
 function startTimer() {
-    var time = 20 * 60;
+    var time1 = 20 * 60;
     clearInterval(interval);
     interval = setInterval(function() {
-        time--;
-        var minutes = Math.floor(time / 60);
-        var seconds = time % 60;
+        time1--;
+        var minutes = Math.floor(time1 / 60);
+        var seconds = time1 % 60;
         document.getElementById('timer').textContent = 'Таймер: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
-        if (time <= 0) {
+        if (time1 <= 0) {
             alert('Следай перерыв!');
-            time = 20 * 60;
+            time1 = 20 * 60;
         }
     }, 1000);
 }
 
 function startTimer2() {
-    var time = 25 * 60;
+    var time2 = 25 * 60;
     clearInterval(interval);
     interval = setInterval(function() {
-        time--;
-        var minutes = Math.floor(time / 60);
-        var seconds = time % 60;
+        time2--;
+        var minutes = Math.floor(time2 / 60);
+        var seconds = time2 % 60;
         document.getElementById('timer2').textContent = 'Таймер: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
-        if (time <= 0) {
+        if (time2 <= 0) {
             alert('Следай перерыв!');
-            time = 25 * 60;
+            time2 = 25 * 60;
         }
     }, 1000);
 }
