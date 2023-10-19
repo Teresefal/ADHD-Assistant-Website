@@ -343,13 +343,13 @@
 
 .desktop .footer {
   display: flex;
-  width: 100%;
+  width: 1440px;
   height: 120px;
   align-items: flex-start;
   justify-content: space-between;
   padding: 32px 110px;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  top: 2553px;
   left: 0;
   background-color: #eee5ff;
 }
