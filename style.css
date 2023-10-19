@@ -12,6 +12,19 @@
   position: relative;
 }
 
+.app-bg {
+  background-image: url(./img/desktop-8.png);
+}
+
+.desktop .div {
+  background-color: #ffffff59;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1440px;
+  height: 957px;
+  position: relative;
+}
+
 .desktop .main-area {
   display: flex;
   flex-direction: column;
@@ -408,6 +421,20 @@
   border-color: var(--onsurfacequinary);
 }
 
+.desktop .schedule-title {
+  justify-content: space-between;
+  border-color: #ede5ff;
+  display: flex;
+  align-items: center;
+  padding: 12px 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
 .desktop .task-content {
   display: flex;
   align-items: center;
@@ -773,6 +800,20 @@
   line-height: var(--body-primary-medium-16-pt-line-height);
   white-space: nowrap;
   font-style: var(--body-primary-medium-16-pt-font-style);
+}
+
+.desktop .htsm-16-osp {
+  position: relative;
+  width: fit-content;
+  opacity: 0.6;
+  font-family: var(--heading-tretiary-semibold-16-pt-font-family);
+  font-weight: var(--heading-tretiary-semibold-16-pt-font-weight);
+  color: var(--onsurfaceprimary);
+  font-size: var(--heading-tretiary-semibold-16-pt-font-size);
+  letter-spacing: var(--heading-tretiary-semibold-16-pt-letter-spacing);
+  line-height: var(--heading-tretiary-semibold-16-pt-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-tretiary-semibold-16-pt-font-style);
 }
 
 .desktop .magnifying-glass-wrapper {
