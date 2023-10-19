@@ -866,6 +866,37 @@
   position: relative;
 }
 
+.desktop .input-large {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 18px 12px 18px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--surfacesecondary);
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--surfacequaternary);
+}
+
+.desktop .label-wrapper {
+  display: flex;
+  height: 206px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 18px 12px 18px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--surfacesecondary);
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--surfacequaternary);
+}
+
 .desktop .bpm-16-osp {
   position: relative;
   width: fit-content;
