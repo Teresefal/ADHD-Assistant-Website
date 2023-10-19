@@ -1,18 +1,3 @@
-.desktop {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.desktop .div {
-  background-color: #ffffff;
-  width: 1440px;
-  height: 1720px;
-  position: relative;
-}
-
 .desktop .frame {
   display: flex;
   flex-direction: column;
