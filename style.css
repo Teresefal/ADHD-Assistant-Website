@@ -949,6 +949,12 @@
   flex: 0 0 auto;
 }
 
+.desktop .timer-header {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
 .desktop .cont-inf-box {
   display: inline-flex;
   align-items: flex-start;
