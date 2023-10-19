@@ -415,7 +415,7 @@
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
-  gap: 12px 8px;
+  gap: 12px 32px;
   padding: 0px 8px;
   position: relative;
   align-self: stretch;

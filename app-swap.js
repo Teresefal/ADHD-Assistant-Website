@@ -30,7 +30,7 @@ function startTimer2() {
         time--;
         var minutes = Math.floor(time / 60);
         var seconds = time % 60;
-        document.getElementById('timer').textContent = 'Таймер: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+        document.getElementById('timer2').textContent = 'Таймер: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
         if (time <= 0) {
             alert('Следай перерыв!');
             time = 25 * 60;
