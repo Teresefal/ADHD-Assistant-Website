@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+.active
+{
+  display: flex;
+}
+
 .desktop .div {
   background-color: #ffffff;
   width: 1440px;
@@ -255,7 +260,7 @@
 }
 
 .desktop .app-main {
-  display: flex;
+  display: none;
   flex-direction: column;
   width: 750px;
   height: 856px;

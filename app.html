@@ -12,23 +12,23 @@
           <div class="app-apps">
             <div class="apps-list">
               <div class="app-title"><div class="hpsb-24-osp">Приложения</div></div>
-              <div class="apps-list-ex">
+              <div class="apps-list-ex" onclick="showContent('main-1')">
                 <div class="htsb-16-osp">Календарь</div>
                 <div class="button-compact"><img class="img" src="img/caretright-21.svg" /></div>
               </div>
-              <div class="apps-list-ex">
+              <div class="apps-list-ex" onclick="showContent('main-2')">
                 <div class="htsb-16-osp">Таймеры</div>
                 <div class="button-compact"><img class="img" src="img/caretright-21.svg" /></div>
               </div>
-              <div class="apps-list-ex">
+              <div class="apps-list-ex" onclick="showContent('main-3')">
                 <div class="htsb-16-osp">Заметки</div>
                 <div class="button-compact"><img class="img" src="img/caretright-21.svg" /></div>
               </div>
-              <div class="apps-list-ex">
+              <div class="apps-list-ex" onclick="showContent('main-4')">
                 <div class="htsb-16-osp">Активности</div>
                 <div class="button-compact"><img class="img" src="img/caretright-21.svg" /></div>
               </div>
-              <div class="apps-list-ex">
+              <div class="apps-list-ex" onclick="showContent('main-5')">
                 <div class="htsb-16-osp">Мини-игры</div>
                 <div class="button-compact"><img class="img" src="img/caretright.svg" /></div>
               </div>
@@ -48,7 +48,7 @@
               <div class="button-compact"><img class="img" src="img/gear.svg" /></div>
             </div>
           </div>
-          <div class="app-main">
+          <div id="main-1" class="app-main active">
             <div class="main-title"><div class="hpsb-24-osp">Календарь</div></div>
             <div class="main-calendar">
               <div class="calendar-day">
@@ -343,6 +343,24 @@
               </div>
             </div>
           </div>
+          <div id="main-2" class="app-main">
+            <div class="main-title"><div class="hpsb-24-osp">Таймеры</div></div>
+            <div class="main-calendar">
+              
+          </div>
+          <div id="main-3" class="app-main">
+            <div class="main-title"><div class="hpsb-24-osp">Заметки</div></div>
+            <div class="main-calendar">    
+          </div>
+          <div id="main-4" class="app-main">
+            <div class="main-title"><div class="hpsb-24-osp">Активности</div></div>
+            <div class="main-calendar">      
+          </div>
+          <div id="main-5" class="app-main">
+            <div class="main-title"><div class="hpsb-24-osp">Мини-игры</div></div>
+            <div class="main-calendar">      
+          </div>  
+          </div>
           <div class="app-schedule">
             <div class="schedule-title">
               <div class="hpsb-24-osp">Расписание</div>
@@ -466,5 +484,7 @@
         </header>
       </div>
     </div>
+
+    <script src="app-swap.js"></script>
   </body>
 </html>
