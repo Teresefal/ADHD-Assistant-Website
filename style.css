@@ -411,6 +411,18 @@
   flex: 0 0 auto;
 }
 
+.desktop .main-calendar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 12px 8px;
+  padding: 0px 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
 .desktop .calendar-day {
   display: flex;
   flex-direction: column;
