@@ -948,6 +948,16 @@
   font-style: var(--body-secondary-medium-14-pt-font-style);
 }
 
+.desktop .about-text-block {
+  display: flex;
+  flex-direction: column;
+  width: 660px;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
 .desktop .hssb-20-osp {
   position: relative;
   align-self: stretch;
