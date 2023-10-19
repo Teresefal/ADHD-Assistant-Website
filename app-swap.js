@@ -15,7 +15,7 @@ function startTimer() {
         time--;
         var minutes = Math.floor(time / 60);
         var seconds = time % 60;
-        document.getElementById('timer').textContent = 'Timer: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+        document.getElementById('timer').textContent = 'Таймер: ' + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
         if (time <= 0) {
             alert('Следай перерыв!');
             time = 20 * 60;
