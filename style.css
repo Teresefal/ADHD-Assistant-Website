@@ -831,6 +831,11 @@
   font-style: var(--body-primary-medium-16-pt-font-style);
 }
 
+.desktop .about-bpm {
+  width: 660px;
+  text-align: center;
+}
+
 .desktop .alt-bpm {
   flex: 1;
   overflow: hidden;
@@ -994,6 +999,12 @@
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   font-style: var(--heading-secondary-semibold-20-pt-font-style);
+}
+
+.desktop .about-hssb {
+  width: 660px;
+  margin-top: -1px;
+  text-align: center;
 }
 
 .desktop .wn {
