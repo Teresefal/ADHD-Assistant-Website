@@ -336,6 +336,10 @@
   border-color: var(--onsurfacequinary);
 }
 
+.desktop .apps-list-ex:hover {
+  background-color: var(--onsurfacequinary);
+}
+
 .desktop .htsb-16-osp {
   width: fit-content;
   font-weight: var(--heading-tretiary-semibold-16-pt-font-weight);
@@ -493,6 +497,10 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: var(--onsurfacequinary);
+}
+
+.desktop .schedule-task:hover {
+  background-color: var(--onsurfacequinary);
 }
 
 .desktop .schedule-title {
