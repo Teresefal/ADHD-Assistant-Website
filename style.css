@@ -94,8 +94,6 @@
   border-radius: 6px;
 }
 
-
-
 .desktop .bpm-16-oss {
   position: relative;
   align-self: stretch;
@@ -104,6 +102,19 @@
   color: var(--onsurfacesecondary);
   font-size: var(--body-primary-medium-16-pt-font-size);
   text-align: center;
+  letter-spacing: var(--body-primary-medium-16-pt-letter-spacing);
+  line-height: var(--body-primary-medium-16-pt-line-height);
+  font-style: var(--body-primary-medium-16-pt-font-style);
+}
+
+.desktop .bpm-16-ost {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--body-primary-medium-16-pt-font-family);
+  font-weight: var(--body-primary-medium-16-pt-font-weight);
+  color: var(--onsurfacetretiary);
+  font-size: var(--body-primary-medium-16-pt-font-size);
   letter-spacing: var(--body-primary-medium-16-pt-letter-spacing);
   line-height: var(--body-primary-medium-16-pt-line-height);
   font-style: var(--body-primary-medium-16-pt-font-style);
@@ -705,6 +716,11 @@
 .desktop .glb {
   position: absolute;
   top: 2553px;
+}
+
+.desktop .ctcs {
+  position: absolute;
+  top: 780px;
 }
 
 .desktop .fib {
