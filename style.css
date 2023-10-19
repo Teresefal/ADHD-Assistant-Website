@@ -371,6 +371,14 @@
   margin-top: -1px;
 }
 
+.desktop .priority-red {
+  background-color: var(--functionalerrorprimary);
+  position: relative;
+  width: 34.5px;
+  height: 4px;
+  border-radius: 4px;
+}
+
 .desktop .priority-gray {
   background-color: var(--surfacequaternary);
   position: relative;
