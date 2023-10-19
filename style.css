@@ -749,6 +749,18 @@
   height: 28px;
 }
 
+.desktop .about-container {
+  display: flex;
+  flex-direction: column;
+  width: 1220px;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 0px 0px;
+  position: absolute;
+  top: 80px;
+  left: 110px;
+}
+
 .desktop .header {
   display: flex;
   width: 100%;
