@@ -831,9 +831,48 @@
   font-style: var(--body-primary-medium-16-pt-font-style);
 }
 
-.desktop .about-bpm {
+.desktop .hssb-20-osp {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--heading-secondary-semibold-20-pt-font-family);
+  font-weight: var(--heading-secondary-semibold-20-pt-font-weight);
+  color: var(--onsurfaceprimary);
+  font-size: var(--heading-secondary-semibold-20-pt-font-size);
+  letter-spacing: var(--heading-secondary-semibold-20-pt-letter-spacing);
+  line-height: var(--heading-secondary-semibold-20-pt-line-height);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  font-style: var(--heading-secondary-semibold-20-pt-font-style);
+}
+
+.desktop .hssb-20-osp-about {
+  position: relative;
   width: 660px;
+  margin-top: -1px;
+  font-family: var(--heading-secondary-semibold-20-pt-font-family);
+  font-weight: var(--heading-secondary-semibold-20-pt-font-weight);
+  color: var(--onsurfaceprimary);
+  font-size: var(--heading-secondary-semibold-20-pt-font-size);
   text-align: center;
+  letter-spacing: var(--heading-secondary-semibold-20-pt-letter-spacing);
+  line-height: var(--heading-secondary-semibold-20-pt-line-height);
+  font-style: var(--heading-secondary-semibold-20-pt-font-style);
+}
+
+.desktop .bpm-16-osp-about {
+  width: 660px;
+  font-weight: var(--body-primary-medium-16-pt-font-weight);
+  font-size: var(--body-primary-medium-16-pt-font-size);
+  line-height: var(--body-primary-medium-16-pt-line-height);
+  position: relative;
+  font-family: var(--body-primary-medium-16-pt-font-family);
+  color: var(--onsurfaceprimary);
+  text-align: center;
+  letter-spacing: var(--body-primary-medium-16-pt-letter-spacing);
+  font-style: var(--body-primary-medium-16-pt-font-style);
 }
 
 .desktop .alt-bpm {
@@ -982,29 +1021,6 @@
   gap: 16px;
   position: relative;
   flex: 0 0 auto;
-}
-
-.desktop .hssb-20-osp {
-  position: relative;
-  align-self: stretch;
-  font-family: var(--heading-secondary-semibold-20-pt-font-family);
-  font-weight: var(--heading-secondary-semibold-20-pt-font-weight);
-  color: var(--onsurfaceprimary);
-  font-size: var(--heading-secondary-semibold-20-pt-font-size);
-  letter-spacing: var(--heading-secondary-semibold-20-pt-letter-spacing);
-  line-height: var(--heading-secondary-semibold-20-pt-line-height);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-  font-style: var(--heading-secondary-semibold-20-pt-font-style);
-}
-
-.desktop .about-hssb {
-  width: 660px;
-  margin-top: -1px;
-  text-align: center;
 }
 
 .desktop .wn {
