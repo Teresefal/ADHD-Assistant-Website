@@ -41,6 +41,17 @@
   flex: 0 0 auto;
 }
 
+.desktop .reply-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
 .app-bg {
   background-image: url(./img/desktop-8.png);
 }
