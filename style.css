@@ -6,11 +6,6 @@
   width: 100%;
 }
 
-.active
-{
-  display: flex;
-}
-
 .desktop .div {
   background-color: #ffffff;
   width: 1440px;
@@ -271,6 +266,11 @@
   background-color: #ffffff;
   border-radius: 8px;
   overflow: hidden;
+}
+
+.active
+{
+  display: flex;
 }
 
 .desktop .app-schedule {
