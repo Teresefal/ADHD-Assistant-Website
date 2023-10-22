@@ -449,6 +449,50 @@
   border-color: var(--onsurfacequinary);
 }
 
+.desktop .notes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0px 16px;
+  position: relative;
+}
+
+.desktop .notes-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--surfacesecondary);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--onsurfacequinary);
+}
+
+.desktop .button-medium-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--surfacesecondary);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--onsurfacequinary);
+}
+
 .desktop .calendar-day {
   display: flex;
   flex-direction: column;
@@ -972,6 +1016,22 @@
 
 .desktop .button-medium-2:hover {
   background-color: var(--onsurfacequaternary);
+}
+
+.timer-container .button-medium-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 6px 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--onsurfaceprimary);
+  border-radius: 6px;
+}
+
+.desktop .button-medium-3:hover {
+  background-color: var(--onsurfacesecondary);
 }
 
 .desktop .big-logo {
