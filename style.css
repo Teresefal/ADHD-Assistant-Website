@@ -449,23 +449,6 @@
   border-color: var(--onsurfacequinary);
 }
 
-.desktop .notes-block {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  padding: 16px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: var(--surfacesecondary);
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid;
-  border-color: var(--onsurfacequinary);
-}
-
 .desktop .calendar-day {
   display: flex;
   flex-direction: column;
@@ -991,22 +974,6 @@
   background-color: var(--onsurfacequaternary);
 }
 
-.desktop .button-medium-3 {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 6px 8px;
-  position: relative;
-  flex: 0 0 auto;
-  background-color: var(--onsurfaceprimary);
-  border-radius: 6px;
-}
-
-.desktop .button-medium-3:hover {
-  background-color: var(--onsurfacesecondary);
-}
-
 .desktop .big-logo {
   cursor: pointer;
   display: inline-flex;
@@ -1159,18 +1126,6 @@
   font-style: var(--button-primary-medium-14-pt-font-style);
 }
 
-.desktop .bsr-14-osp {
-  align-self: stretch;
-  font-weight: var(--body-secondary-regular-14-pt-font-weight);
-  font-size: var(--body-secondary-regular-14-pt-font-size);
-  line-height: var(--body-secondary-regular-14-pt-line-height);
-  position: relative;
-  font-family: var(--body-secondary-regular-14-pt-font-family);
-  color: var(--onsurfaceprimary);
-  letter-spacing: var(--body-secondary-regular-14-pt-letter-spacing);
-  font-style: var(--body-secondary-regular-14-pt-font-style);
-}
-
 
 .desktop .alt-bpm {
   flex: 1;
@@ -1318,24 +1273,6 @@
   gap: 16px;
   position: relative;
   flex: 0 0 auto;
-}
-
-.desktop .note-button-add {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  padding: 16px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: var(--surfacesecondary);
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid;
-  border-color: var(--onsurfacequinary);
 }
 
 .desktop .wn {
