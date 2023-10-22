@@ -1160,6 +1160,20 @@
   font-style: var(--button-primary-medium-14-pt-font-style);
 }
 
+.desktop .bpm-14-obp {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--button-primary-medium-14-pt-font-family);
+  font-weight: var(--button-primary-medium-14-pt-font-weight);
+  color: var(--onbrandprimary);
+  font-size: var(--button-primary-medium-14-pt-font-size);
+  letter-spacing: var(--button-primary-medium-14-pt-letter-spacing);
+  line-height: var(--button-primary-medium-14-pt-line-height);
+  white-space: nowrap;
+  font-style: var(--button-primary-medium-14-pt-font-style);
+}
+
 
 .desktop .alt-bpm {
   flex: 1;
