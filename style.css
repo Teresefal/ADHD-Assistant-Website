@@ -974,6 +974,40 @@
   background-color: var(--onsurfacequaternary);
 }
 
+.desktop .button-medium-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 6px 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--onsurfaceprimary);
+  border-radius: 6px;
+}
+
+.desktop .button-medium-3:hover {
+  background-color: var(--onsurfacesecondary);
+}
+
+.desktop .button-medium-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--surfacesecondary);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--onsurfacequinary);
+}
+
 .desktop .big-logo {
   cursor: pointer;
   display: inline-flex;
