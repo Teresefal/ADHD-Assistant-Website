@@ -129,6 +129,7 @@ function showNote()
 window.onload = function() {
   document.querySelectorAll('.note-block').forEach((block) => {
     let button = block.querySelector('.frame .button-medium');
+    let buttonText = block.querySelector('.frame .button-medium .bpm-14-osp');
     let butDel = block.querySelector('.frame .button-medium-3');
     let title = block.querySelector('.hssb-20-osp');
     let titleInput = block.querySelector('input[placeholder="Заголовок"]');
@@ -146,8 +147,8 @@ window.onload = function() {
         } else {
           title.innerHTML = titleInput.value;
           note.innerHTML = noteInput.value;
-          title.Input.value = "";
-          note.Input.value = "";
+          titleInput.value = "";
+          noteInput.value = "";
           title.style.display = 'block';
           note.style.display = 'block';
           titleInput.style.display = 'none';
