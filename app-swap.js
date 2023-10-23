@@ -156,7 +156,7 @@ window.onload = function() {
         }
       });
     }
-    delbut.addEventListener('click', () => 
+    butDel.addEventListener('click', () => 
     {
       title.innerHTML = "Заголовок";
       note.innerHTML = "Текст заметки";
