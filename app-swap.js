@@ -129,6 +129,7 @@ function showNote()
 window.onload = function() {
   document.querySelectorAll('.timer-block').forEach((block) => {
     let button = block.querySelector('.button-medium');
+    let buttonText = block.querySelector('.bpm-14-osp');
     let title = block.querySelector('.hssb-20-osp');
     let titleInput = block.querySelector('input[placeholder="Заголовок"]');
     let note = block.querySelector('.osr-14-osp');
@@ -141,11 +142,17 @@ window.onload = function() {
           note.style.display = 'none';
           titleInput.style.display = 'block';
           noteInput.style.display = 'block';
+          buttonText.innerHTML = "Сохранить";
         } else {
+          title.innerHTML = titleInput.value;
+          note.innerHTML = noteInput.value;
+          title.Input.value = "";
+          note.Input.value = "";
           title.style.display = 'block';
           note.style.display = 'block';
           titleInput.style.display = 'none';
           noteInput.style.display = 'none';
+          buttonText.innerHTML = "Изменить";
         }
       });
     }
