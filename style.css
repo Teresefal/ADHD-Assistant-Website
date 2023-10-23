@@ -976,6 +976,7 @@
 }
 
 .desktop .button-medium-3 {
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
