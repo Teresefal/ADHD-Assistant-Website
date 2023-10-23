@@ -115,13 +115,32 @@ function logReg(id)
 
 function showNote() 
 {
-    var contents = document.getElementsByClassName("timer-block");
-    for (var i = 0; i < contents.length; i++) 
+  var contents = document.getElementsByClassName("timer-block");
+  for (var i = 0; i < contents.length; i++) 
+  {
+    if(!contents[i].classList.contains('active'))
     {
-      if(!contents[i].classList.contains('active'))
-      {
-        contents[i].classList.add("active");
-        return;
-      }
+      contents[i].classList.add("active");
+      return;
     }
   }
+}
+
+function editNote(parentElement) {
+  var title = parentElement.querySelector('.title');
+  var titleInput = parentElement.querySelector('.title-input');
+  var noteText = parentElement.querySelector('.note-text');
+  var noteInput = parentElement.querySelector('.note-input');
+
+  if (title.style.display !== 'none') {
+      title.style.display = 'none';
+      titleInput.style.display = 'block';
+      noteText.style.display = 'none';
+      noteInput.style.display = 'block';
+  } else {
+      title.style.display = 'block';
+      titleInput.style.display = 'none';
+      noteText.style.display = 'block';
+      noteInput.style.display = 'none';
+  }
+}
