@@ -611,10 +611,9 @@
 .desktop .task-priority {
   position: relative;
   align-self: stretch;
-  width: 40px;
-  margin-left: -36px;
+  width: 4px;
+  border-radius: 2px;
   background-color: var(--functionalerrorprimary);
-  transform: rotate(-90deg);
 }
 
 .desktop .big-news {
