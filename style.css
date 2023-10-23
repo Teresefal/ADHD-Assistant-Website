@@ -1227,6 +1227,21 @@
   font-style: var(--body-secondary-regular-14-pt-font-style);
 }
 
+.desktop .bsr-14-ost {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-secondary-regular-14-pt-font-family);
+  font-weight: var(--body-secondary-regular-14-pt-font-weight);
+  color: var(--onsurfaceprimary);
+  font-size: var(--body-secondary-regular-14-pt-font-size);
+  text-align: center;
+  letter-spacing: var(--body-secondary-regular-14-pt-letter-spacing);
+  line-height: var(--body-secondary-regular-14-pt-line-height);
+  white-space: nowrap;
+  font-style: var(--body-secondary-regular-14-pt-font-style);
+}
+
 
 .desktop .alt-bpm {
   flex: 1;
