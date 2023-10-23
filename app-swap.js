@@ -161,8 +161,8 @@ window.onload = function() {
     {
       title.innerHTML = "Заголовок";
       note.innerHTML = "Текст заметки";
-      title.Input.value = "";
-      note.Input.value = "";
+      titleInput.value = "";
+      noteInput.value = "";
       block.classList.remove('active');
     });
   });
