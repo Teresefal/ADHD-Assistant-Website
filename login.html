@@ -10,7 +10,7 @@
 
 
         <div class="login-window">
-          <div class="login-container">
+          <div id="log" class="login-container active">
             <div class="logo">
             <img class="group" src="img/group-6.png" />
             <div class="hpsb-24-osp logo-text">ADHD ASSISTANT</div>
@@ -28,8 +28,31 @@
               <div class="button-large" onclick="window.location.href = 'app.html';"><div class="hsm-20-obp">Продолжить</div></div>
               <div class="frame">
                 <div class="bsr-14-ost">нет аккаунта?</div>
-                <div class="bsr-14-ost">Зарегистрироваться</div>
+                <div class="bsr-14-ost" onclick="logReg('reg')" style="cursor: pointer;">Зарегистрироваться</div>
               </div>
+            </div>
+          </div>
+
+          <div id="reg" class="login-container">
+            <div class="logo">
+              <img class="group" src="img/group-6.png" />
+              <div class="hpsb-24-osp logo-text">ADHD ASSISTANT</div>
+              </div>
+            <div class="form-container">
+              <div class="hssb-20-osp">Регистрация</div>
+              <div class="reply-box">
+                <div class="bpm-16-osp">почта</div>
+                <div class="input-large"><div class="bpm-16-ost">почта</div></div>
+              </div>
+              <div class="reply-box">
+                <div class="bpm-16-osp">пароль</div>
+                <div class="input-large"><div class="bpm-16-ost">пароль</div></div>
+              </div>
+              <div class="frame">
+                <input type="checkbox" />
+                <div class="bsr-14-ost">согласен с Обработкой данных</div>
+              </div>
+              <div class="button-large" onclick="window.location.href = 'app.html';"><div class="hsm-20-obp">Продолжить</div></div>
             </div>
           </div>
         </div>

@@ -270,10 +270,7 @@
   overflow: hidden;
 }
 
-.desktop .active
-{
-  display: flex;
-}
+
 
 .desktop .app-schedule {
   display: flex;
@@ -464,7 +461,7 @@
 }
 
 .login-window .login-container {
-  display: flex;
+  display: hidden;
   flex-direction: column;
   width: 380px;
   align-items: center;
@@ -1407,4 +1404,9 @@
   line-height: var(--caption-primary-medium-12-pt-line-height);
   white-space: nowrap;
   font-style: var(--caption-primary-medium-12-pt-font-style);
+}
+
+.desktop .active
+{
+  display: flex;
 }
