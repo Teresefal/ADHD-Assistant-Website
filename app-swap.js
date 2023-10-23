@@ -112,3 +112,16 @@ function logReg(id)
   }
   document.getElementById(id).classList.add("active");
 }
+
+function showNote() 
+{
+    var contents = document.getElementsByClassName("timer-block");
+    for (var i = 0; i < contents.length; i++) 
+    {
+      if(!contents[i].classList.contains('active'))
+      {
+        contents[i].classList.add("active");
+        return;
+      }
+    }
+  }
