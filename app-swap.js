@@ -115,7 +115,7 @@ function logReg(id)
 
 function showNote() 
 {
-  var contents = document.getElementsByClassName("timer-block");
+  var contents = document.getElementsByClassName("note-block");
   for (var i = 0; i < contents.length; i++) 
   {
     if(!contents[i].classList.contains('active'))
