@@ -114,46 +114,35 @@ function logReg(id)
 }
 
 
+function NoteEdit(){
+  var editBtns = document.querySelectorAll('.button-medium');
+  var deleteBtns = document.querySelectorAll('.button-medium-3');
 
-// Get the modal
-var modal = document.getElementById("myModal");
+  for (let i = 0; i < editBtns.length; i++) 
+  {
+      editBtns[i].onclick = function() 
+      {
+          window.currentNoteBlock = this.closest('.note-block');
+          document.getElementById('myModal').style.display = "block";
+      }
+  }
 
-// Get the button that opens the modal
-var btn = document.getElementsById("edit-button-1")[0];
+  document.getElementById('saveBtn').onclick = function() 
+  {
+      var newTitle = document.getElementById('newTitle').value;
+      var newText = document.getElementById('newText').value;
 
-// Get the elements that we need to change
-var title = document.getElementsByClassId("note-title-1")[0];
-var text = document.getElementsByClassId("note-text-1")[0];
+      window.currentNoteBlock.querySelector('.hssb-20-osp').textContent = newTitle;
+      window.currentNoteBlock.querySelector('.osr-14-osp').textContent = newText;
 
-// Get the form and input fields
-var form = document.getElementById("noteForm");
-var inputTitle = document.getElementById("title");
-var inputText = document.getElementById("text");
+      document.getElementById('myModal').style.display = "none";
+  }
 
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on submit, change the note and close the modal
-form.onsubmit = function(e) {
-  e.preventDefault();
-  title.innerHTML = inputTitle.value;
-  text.innerHTML = inputText.value;
-  modal.style.display = "none";
-}
-
-// Get the close element
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on close (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  for (let i = 0; i < deleteBtns.length; i++) 
+  {
+      deleteBtns[i].onclick = function() 
+      {
+          this.closest('.note-block').style.display = "none";
+      }
   }
 }
