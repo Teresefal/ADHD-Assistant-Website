@@ -129,6 +129,7 @@ function showNote()
 window.onload = function() {
   document.querySelectorAll('.timer-block').forEach((block) => {
     let button = block.querySelector('.button-medium');
+    let delbut = block.querySelector('.button-medium-3');
     let buttonText = block.querySelector('.bpm-14-osp');
     let title = block.querySelector('.hssb-20-osp');
     let titleInput = block.querySelector('input[placeholder="Заголовок"]');
@@ -156,6 +157,10 @@ window.onload = function() {
         }
       });
     }
+
+    delbut.addEventListener('click', () => {
+      block.classList.remove('active');
+    });
+
   });
 };
-
