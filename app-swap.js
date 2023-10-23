@@ -127,7 +127,7 @@ function showNote()
 }
 
 window.onload = function() {
-  document.querySelectorAll('.timer-block').forEach((block) => {
+  document.querySelectorAll('.note-block').forEach((block) => {
     let button = block.querySelector('.frame .button-medium');
     let butDel = block.querySelector('.frame .button-medium-3');
     let title = block.querySelector('.hssb-20-osp');
