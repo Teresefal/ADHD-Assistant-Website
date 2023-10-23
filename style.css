@@ -461,7 +461,7 @@
 }
 
 .login-window .login-container {
-  display: hidden;
+  display: none;
   flex-direction: column;
   width: 380px;
   align-items: center;
