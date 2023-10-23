@@ -112,37 +112,3 @@ function logReg(id)
   }
   document.getElementById(id).classList.add("active");
 }
-
-
-function NoteEdit(){
-  var editBtns = document.querySelectorAll('.button-medium');
-  var deleteBtns = document.querySelectorAll('.button-medium-3');
-
-  for (let i = 0; i < editBtns.length; i++) 
-  {
-      editBtns[i].onclick = function() 
-      {
-          window.currentNoteBlock = this.closest('.note-block');
-          document.getElementById('myModal').style.display = "block";
-      }
-  }
-
-  document.getElementById('saveBtn').onclick = function() 
-  {
-      var newTitle = document.getElementById('newTitle').value;
-      var newText = document.getElementById('newText').value;
-
-      window.currentNoteBlock.querySelector('.hssb-20-osp').textContent = newTitle;
-      window.currentNoteBlock.querySelector('.osr-14-osp').textContent = newText;
-
-      document.getElementById('myModal').style.display = "none";
-  }
-
-  for (let i = 0; i < deleteBtns.length; i++) 
-  {
-      deleteBtns[i].onclick = function() 
-      {
-          this.closest('.note-block').style.display = "none";
-      }
-  }
-}
