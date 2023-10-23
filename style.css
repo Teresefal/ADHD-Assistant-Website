@@ -424,7 +424,6 @@
 }
 
 .desktop .timer-container {
-  display: none;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -435,6 +434,7 @@
 }
 
 .desktop .timer-block {
+  display: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
