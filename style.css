@@ -450,6 +450,23 @@
   border-color: var(--onsurfacequinary);
 }
 
+.desktop .note-block {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--surfacesecondary);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--onsurfacequinary);
+}
+
 .login-window {
   display: flex;
   width: 1440px;
