@@ -126,21 +126,24 @@ function showNote()
   }
 }
 
-function editNote(parentElement) {
-  var title = parentElement.querySelector('.title');
-  var titleInput = parentElement.querySelector('.title-input');
-  var noteText = parentElement.querySelector('.note-text');
-  var noteInput = parentElement.querySelector('.note-input');
+document.querySelectorAll('.timer-block').forEach((block) => {
+  let button = block.querySelector('.button-medium');
+  let title = block.querySelector('.hssb-20-osp');
+  let titleInput = block.querySelector('input[placeholder="Заголовок"]');
+  let note = block.querySelector('.osr-14-osp');
+  let noteInput = block.querySelector('input[placeholder="Текст заметки"]');
 
-  if (title.style.display !== 'none') {
+  button.addEventListener('click', () => {
+    if (title.style.display !== 'none') {
       title.style.display = 'none';
+      note.style.display = 'none';
       titleInput.style.display = 'block';
-      noteText.style.display = 'none';
       noteInput.style.display = 'block';
-  } else {
+    } else {
       title.style.display = 'block';
+      note.style.display = 'block';
       titleInput.style.display = 'none';
-      noteText.style.display = 'block';
       noteInput.style.display = 'none';
-  }
-}
+    }
+  });
+});
