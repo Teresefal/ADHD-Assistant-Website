@@ -127,7 +127,8 @@ function showNote()
 }
 
 window.onload = function() {
-  document.querySelectorAll('.timer-block').forEach((block) => {
+  document.querySelectorAll('.timer-block').forEach((block) => 
+  {
     let button = block.querySelector('.button-medium');
     let delbut = block.querySelector('.button-medium-3');
     let buttonText = block.querySelector('.bpm-14-osp');
@@ -136,15 +137,20 @@ window.onload = function() {
     let note = block.querySelector('.osr-14-osp');
     let noteInput = block.querySelector('input[placeholder="Текст заметки"]');
 
-    if(button && title && titleInput && note && noteInput) {
-      button.addEventListener('click', () => {
-        if (title.style.display !== 'none') {
+    if(button && title && titleInput && note && noteInput) 
+    {
+      button.addEventListener('click', () => 
+      {
+        if (title.style.display !== 'none') 
+        {
           title.style.display = 'none';
           note.style.display = 'none';
           titleInput.style.display = 'block';
           noteInput.style.display = 'block';
           buttonText.innerHTML = "Сохранить";
-        } else {
+        } 
+        else 
+        {
           title.innerHTML = titleInput.value;
           note.innerHTML = noteInput.value;
           title.Input.value = "";
@@ -158,7 +164,12 @@ window.onload = function() {
       });
     }
 
-    delbut.addEventListener('click', () => {
+    delbut.addEventListener('click', () => 
+    {
+      title.innerHTML = "Заголовок";
+      note.innerHTML = "Текст заметки";
+      title.Input.value = "";
+      note.Input.value = "";
       block.classList.remove('active');
     });
 
