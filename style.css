@@ -324,6 +324,7 @@
 }
 
 .desktop .apps-list-ex {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
